@@ -6,7 +6,7 @@ import DevTools from './DevTools';
 const store = createStore(reducers);
 
 const store = createStore(
-  reducer,
+  reducers,
   DevTools.instrument()
 );
 

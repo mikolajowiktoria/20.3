@@ -6,6 +6,7 @@ import store from './store';
 
 render(
 	<Provider store={store}>
+		<Router history={hashHistory} routes={routes}/>
 		<div>
 			<DevTools />
 			<h1>Inicjacja projektu</h1>
